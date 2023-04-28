@@ -1,0 +1,28 @@
+{
+  "student": {
+    "name": "Jenny Le",
+    "program": "Software Development and Network Engineering",
+    "title": " Aspiring Software Developer and UX/UI Designer",
+    "homeCountry": "VietNam",
+    "profileImage": "./images/jenny.png",
+    "aboutMe": "Motivated and creative Computer Systems Technology student from Sheridan College with 3+ years of experience in customer-facing roles and fast-paced environments. Happy to connect with others to talk about technology and business!"
+  },
+
+  "school": {
+    "academicYear": [
+      {
+        "semester": 1,
+        "transcript": "transcript1.pdf"
+      },
+      {
+        "semester": 2,
+        "transcript": ["transcript2.pdf", "transcript2-1.pdf"]
+      },
+
+      {
+        "semester": 3,
+        "transcript": "transcript3.pdf"
+      }
+    ]
+  }
+}

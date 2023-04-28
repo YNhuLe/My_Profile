@@ -1,0 +1,194 @@
+/* STYLE FOR THE SKILLS CONTAINER */
+
+.container__skills {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 10%;
+
+}
+
+.progressbar {
+  position: relative;
+  max-width: 50%;
+  max-height: 30%;
+  transform: rotate(-90deg);
+  margin: 3%;
+
+}
+
+.progressbar__svg {
+  position: relative;
+max-width :10.5rem;
+min-height: 10.5rem;
+display: block;
+}
+.container__progressbars {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow:row wrap;
+  margin-bottom: 2%;
+
+}
+
+.progressbar__text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+font-size: clamp(.5rem, 10vw, 1.25rem);
+font-weight: bolder;
+  padding: 0.25em 0.5em;
+  color: rgb(245, 240, 240);
+  font-family: "Poppins", sans-serif;
+  border-radius: 0.25em;
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+.progressbar__svg-circle {
+  fill: none;
+  stroke: rgb(241, 232, 232);
+  stroke-width: 6%;
+  stroke-linecap: round;
+  transform: translate(5px, 5px);
+  stroke-dasharray: 440;
+  stroke-dashoffset: 440;
+}
+
+
+/* SHADOW FOR THE CIRCLES */
+.shadow-HTML {
+  filter: drop-shadow(0 0 5px rgb(4, 237, 245));
+}
+.shadow-CSS {
+  filter: drop-shadow(0 0 5px rgb(255, 145, 2));
+}
+.shadow-UI {
+  filter: drop-shadow(0 0 5px rgb(247, 6, 247));
+}
+.shadow-UX {
+  filter: drop-shadow(0 0 5px rgb(2, 245, 2));
+}
+.shadow-JAVA {
+  filter: drop-shadow(0 0 5px rgb(251, 255, 0));
+}
+.shadow-REACT {
+  filter: drop-shadow(0 0 5px rgb(54, 0, 247));
+}
+.shadow-DATA {
+  filter: drop-shadow(0 0 5px rgb(228, 219, 219));
+}
+.shadow-RUBY {
+  filter: drop-shadow(0 0 5px rgb(248, 3, 3));
+}
+.shadow-ANGULAR {
+  filter: drop-shadow(0 0 5px rgb(248, 203, 3));
+}
+
+/* HOVER FOR THE CIRCLES */
+.circle-HTML:hover {
+  filter: drop-shadow(0 0 50px rgb(245, 241, 2));
+}
+.circle-CSS:hover {
+  filter: drop-shadow(0 0 50px rgb(3, 245, 245));
+}
+.circle-UI:hover {
+  filter: drop-shadow(0 0 50px rgb(243, 243, 3));
+}
+.circle-UX:hover {
+  filter: drop-shadow(0 0 50px rgb(255, 81, 0));
+}
+.circle-JAVA:hover {
+  filter: drop-shadow(0 0 50px rgb(0, 255, 255));
+}
+.circle-REACT:hover {
+  filter: drop-shadow(0 0 50px rgb(245, 241, 2));
+}
+.circle-DATA:hover {
+  filter: drop-shadow(10px 0 50px rgb(0, 255, 34));
+}
+.circle-RUBY:hover {
+  filter: drop-shadow(10px 0 50px rgb(0, 255, 34));
+}
+.circle-ANGULAR:hover {
+  filter: drop-shadow(10px 0 50px rgb(255, 174, 0));
+}
+
+/* ANIMATION FOR THE CIRCLES */
+.circle-HTML {
+  animation: anim__circle-HTML 1s ease-in-out forwards;
+}
+.circle-CSS {
+  animation: anim__circle-CSS 1s ease-in-out forwards;
+}
+.circle-UI {
+  animation: anim__circle-UI 1s ease-in-out forwards;
+}
+.circle-UX {
+  animation: anim__circle-UX 1s ease-in-out forwards;
+}
+.circle-JAVA {
+  animation: anim__circle-JAVA 1s ease-in-out forwards;
+}
+.circle-REACT {
+  animation: anim__circle-REACT 1s ease-in-out forwards;
+}
+.circle-DATA {
+  animation: anim__circle-DATA 1s ease-in-out forwards;
+}
+.circle-RUBY {
+  animation: anim__circle-RUBY 1s ease-in-out forwards;
+}
+.circle-ANGULAR {
+  animation: anim__circle-ANGULAR 1s ease-in-out forwards;
+}
+
+
+@keyframes anim__circle-HTML {
+  to {
+    stroke-dashoffset: 130;
+  }
+}
+@keyframes anim__circle-CSS {
+  to {
+    stroke-dashoffset: 250;
+  }
+}
+@keyframes anim__circle-UI {
+  to {
+    stroke-dashoffset: 160;
+  }
+}
+@keyframes anim__circle-UX {
+  to {
+    stroke-dashoffset: 60;
+  }
+}
+@keyframes anim__circle-JAVA {
+  to {
+    stroke-dashoffset: 290;
+  }
+}
+@keyframes anim__circle-REACT {
+  to {
+    stroke-dashoffset: 400;
+  }
+}
+@keyframes anim__circle-DATA {
+  to {
+    stroke-dashoffset: 230;
+  }
+}
+
+@keyframes anim__circle-RUBY {
+  to {
+    stroke-dashoffset: 300;
+  }
+}
+
+@keyframes anim__circle-ANGULAR {
+  to {
+    stroke-dashoffset: 350;
+  }
+}

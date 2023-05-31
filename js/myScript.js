@@ -49,7 +49,7 @@ class academicYear {
 
 function openNav() {
   document.getElementById("mySidebar").style.width = "60%";
-  document.getElementById("mySIdebar").style.width = "block";
+  document.getElementById("mySidebar").style.width = "block";
 }
 
 function closeNav() {

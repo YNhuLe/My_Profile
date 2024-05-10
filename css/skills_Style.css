@@ -79,7 +79,7 @@ font-weight: bolder;
 .shadow-DATA {
   filter: drop-shadow(0 0 5px rgb(228, 219, 219));
 }
-.shadow-RUBY {
+.shadow-PYTHON {
   filter: drop-shadow(0 0 5px rgb(248, 3, 3));
 }
 .shadow-ANGULAR {
@@ -137,8 +137,8 @@ font-weight: bolder;
 .circle-DATA {
   animation: anim__circle-DATA 1s ease-in-out forwards;
 }
-.circle-RUBY {
-  animation: anim__circle-RUBY 1s ease-in-out forwards;
+.circle-PYTHON {
+  animation: anim__circle-PYTHON 1s ease-in-out forwards;
 }
 .circle-ANGULAR {
   animation: anim__circle-ANGULAR 1s ease-in-out forwards;
@@ -181,7 +181,7 @@ font-weight: bolder;
   }
 }
 
-@keyframes anim__circle-RUBY {
+@keyframes anim__circle-PYTHON {
   to {
     stroke-dashoffset: 300;
   }

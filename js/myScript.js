@@ -55,3 +55,11 @@ function openNav() {
 function closeNav() {
   document.getElementById("mySidebar").style.display = "none";
 }
+
+function getYear() {
+  const currentYear = new Date().getFullYear();
+
+  return currentYear;
+}
+document.getElementById("copyright").innerHTML =
+  "© " + getYear() + " Jenny Le.";
